@@ -1,10 +1,8 @@
 package com.caloriesdiary.MyCaloriesTrackingDiary.dao;
 
-
 import com.caloriesdiary.MyCaloriesTrackingDiary.model.TrainingEntry;
-import com.caloriesdiary.MyCaloriesTrackingDiary.model.TrainingType;
+import com.caloriesdiary.MyCaloriesTrackingDiary.model.enums.TrainingType;
 import com.caloriesdiary.MyCaloriesTrackingDiary.dao.interfaces.TrainingEntryDao;
-import com.caloriesdiary.MyCaloriesTrackingDiary.model.mappers.FoodEntryMapper;
 import com.caloriesdiary.MyCaloriesTrackingDiary.model.mappers.TrainingEntryMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;

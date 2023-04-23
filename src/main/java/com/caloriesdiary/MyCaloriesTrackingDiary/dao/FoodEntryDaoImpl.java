@@ -1,7 +1,7 @@
 package com.caloriesdiary.MyCaloriesTrackingDiary.dao;
 
 import com.caloriesdiary.MyCaloriesTrackingDiary.model.FoodEntry;
-import com.caloriesdiary.MyCaloriesTrackingDiary.model.FoodType;
+import com.caloriesdiary.MyCaloriesTrackingDiary.model.enums.FoodType;
 import com.caloriesdiary.MyCaloriesTrackingDiary.dao.interfaces.FoodEntryDao;
 import com.caloriesdiary.MyCaloriesTrackingDiary.model.mappers.FoodEntryMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +17,7 @@ public class FoodEntryDaoImpl implements FoodEntryDao {
     @Override
     public int save(FoodEntry entry) {
         return jdbcTemplate.update("insert into foodEntry (foodType, amountInGrams) values (?, ?) ",
-                entry.getFoodType(), entry.getAmountInGrams());
+                entry.getFoodType(), entry.getAmount());
     }
 
     @Override

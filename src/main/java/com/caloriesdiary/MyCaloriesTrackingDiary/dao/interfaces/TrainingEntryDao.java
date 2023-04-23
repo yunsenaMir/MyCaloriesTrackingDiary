@@ -1,7 +1,7 @@
 package com.caloriesdiary.MyCaloriesTrackingDiary.dao.interfaces;
 
 import com.caloriesdiary.MyCaloriesTrackingDiary.model.TrainingEntry;
-import com.caloriesdiary.MyCaloriesTrackingDiary.model.TrainingType;
+import com.caloriesdiary.MyCaloriesTrackingDiary.model.enums.TrainingType;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
 package com.caloriesdiary.MyCaloriesTrackingDiary.dao.interfaces;
 
 import com.caloriesdiary.MyCaloriesTrackingDiary.model.FoodEntry;
-import com.caloriesdiary.MyCaloriesTrackingDiary.model.FoodType;
+import com.caloriesdiary.MyCaloriesTrackingDiary.model.enums.FoodType;
 
 import java.util.List;
 
